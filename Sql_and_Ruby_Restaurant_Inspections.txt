@@ -50,3 +50,16 @@ Quit;
 @q = @q.select('Inspection ID as ID','DBA Name as Name','Facility Type as Type','Risk','Violations as Violation','Zip                  from Chicago                  select                                  CAMIS as ID','DBA as Name','CUISINE DESCRIPTION as Type','VIOLATION DESCRIPTION as Violation','ZIPCode as zip                  from NewYork                  select                                  Category Name','Zip as Zip','Current Demerits','Current Grade as Grade','Date Current as Date','Inspection Result as Violation')
 
 @q = @q.order('Zip ASC, Type ASC, Violation ASC, Quit ASC, Run ASC')
+
+
+*Files added;
+
+fmwan@DESKTOP-EGTSF0P MINGW64 ~/documents/Restaurants (master)
+$ git commit -m "SQL AND RUBY QUERY"
+[master abc0766] SQL AND RUBY QUERY
+ 2 files changed, 104 insertions(+)
+ create mode 100644 Sql_and Ruby Restaurant_Inspections.txt
+ create mode 100644 Sql_and_Ruby_Restaurant_Inspections.txt
+
+fmwan@DESKTOP-EGTSF0P MINGW64 ~/documents/Restaurants (master)
+
